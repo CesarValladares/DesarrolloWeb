@@ -1,0 +1,38 @@
+header h1{
+    color: red;
+}
+h1 {
+    color: blue;
+}
+
+article > p {
+    color: green;
+}
+
+h1 + p {
+    color: pink;
+}
+
+h1 ~ p {
+    color: orange;
+}
+
+#uno {
+    color:purple;
+}
+
+.dos{
+    background-color: gray;
+}
+
+p[rel]{
+    background-color: bisque;
+}
+
+p[rel='5']{
+    background-color: salmon;
+}  
+
+p[rel$='2']{
+    background-color: aqua;
+}

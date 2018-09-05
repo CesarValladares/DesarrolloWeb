@@ -1,0 +1,138 @@
+/*
+   Laboratory 2.
+   
+   PHCT Typographic Style Sheet
+   Author: César Valladares
+   Date: 20/08/2018
+   
+   Filename: ph_styles.css
+
+*/
+@charset "utf-8";
+
+header {
+    background-color: rgb(102, 96, 96);
+}
+
+
+/* Structural Styles */
+
+dd{
+    margin-left: 0%;
+}
+
+.textito {
+    background-color: white;
+}
+
+section#play1{
+    background-color: rgb(3, 173, 3);
+}
+
+section#play1 nav {
+    background-color: green;
+}
+
+dt{
+    color: rgb(0, 63, 0);
+}
+
+section#play2{
+    background-color: orange;
+}
+
+section#play2 nav {
+    background-color: rgb(192, 126, 3);
+}
+
+section#play3{
+    background-color: blue;
+}
+
+section#play3 nav {
+    background-color: rgb(1, 1, 153);
+}
+
+section#play4{
+    background-color: rgb(187, 0, 187);
+}
+
+section#play4 nav {
+    background-color: purple;
+}
+
+body {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: rgb(131, 130, 130);
+}
+
+p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-family: fantasy;
+}
+
+body > p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+address {
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section h1 {
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* Navigation Styles */
+
+nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+
+
+/* Section Styles */
+
+section#play1 > h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2em;
+}
+section#play2 > h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+section#play3 > h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+section#play4 > h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em; 
+}
+
+
+/* Description List Styles */
+
+li:hover {
+    background-color: hsla(0, 0%, 42%, 0.4);
+}

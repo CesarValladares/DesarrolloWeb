@@ -1,0 +1,18 @@
+div{
+    background-color: darkgrey;
+}
+img{
+    height: 200px;
+}
+img#firstImage{
+    float: left;
+}
+img#secondImage{
+    float: left;
+}
+div::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
