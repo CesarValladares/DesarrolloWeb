@@ -11,6 +11,7 @@ html{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     padding-left: 0;
+    z-index: 2;
 }
 
 /* Links inside the navbar */
@@ -63,13 +64,19 @@ html{
 
 .projects{
     display: block;
+    overflow: hidden;
 }
 
 .projects img{
     width: 24.8%;
     float: left;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    position: relative;
 }
 
 .projects img:hover{
     opacity: 0.5;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
